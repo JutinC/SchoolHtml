@@ -1,0 +1,25 @@
+details summary {
+    cursor: pointer;
+}
+
+details summary > * {
+    display: inline;
+}
+
+details {
+    border: 2px solid rgb(254, 53, 163);
+    border-radius: 0.2rem;
+    padding: 0.1rem;
+    background-color: rgb(238, 225, 246);
+}
+
+details p {
+    color: yellow;
+    background-color: black;
+}
+
+details div {
+    background-color: white;
+    font-size: .5em;
+    border: 2px solid red;
+}
