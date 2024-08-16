@@ -1,0 +1,56 @@
+*{
+    font-size: 32px;
+    background-color: blanchedalmond;
+}
+h4{
+    color: red;
+}
+body{
+    margin: 24;
+    justify-content: center;
+    overflow: hidden;
+}
+#cow{
+    text-align: center;
+}
+.cow{
+text-align:right;
+
+}
+.pig{
+    font-size: 10px;
+    text-align: right;
+    background-color: red;
+    color: red;
+    background-image:url("Hi.jpg");
+}    
+.boxwrapper{
+    height: 20vh; 
+    width: 30%;
+    display: flex;
+    float: left;
+    flex-direction:row-reverse;
+    text-align: center;
+}
+
+#box1 {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: solid 10px rgb(195, 0, 255);
+    border-radius: 50px;
+    background-color:rgb(18, 104, 19)
+}
+#box2 {
+    padding: 10px;
+    border: solid 10px rgb(68, 20, 156);
+    border-radius: 50px;
+    background-color: rgb(28, 194, 255)
+}
+#box3 {
+    padding: 10px;
+    border: solid 10px rgb(18, 104, 19);
+    border-radius: 50px;
+    background-color: rgb(255, 0, 0)
+}
