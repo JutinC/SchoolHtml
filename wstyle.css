@@ -1,0 +1,113 @@
+* {
+  font-size: 20px; 
+  background-color: blanchedalmond;
+}
+h1 {
+    font-size: 30px;
+    text-align:center;
+}
+h2 {
+    color:red;
+    font-size: 52px;
+    background-color: rgb(254, 160, 180);
+}
+.box1 {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: solid 10px rgb(195, 0, 255);
+    border-radius: 50px;
+    background-color:rgb(195, 0, 255);
+    color:rgb(0, 0, 255);
+}
+.box2 {
+    padding: 30px;
+    border: solid 10px rgb(28, 194, 255);
+    border-radius: 50px;
+    background-color: rgb(28, 194, 255);
+    color: rgb(200, 7, 178);
+}
+.box3 {
+    padding: 30px;
+    border: solid 10px rgb(18, 255, 19);
+    border-radius: 50px;
+    background-color: rgb(18, 255, 19);
+    color: rgb(50, 4, 53);
+}
+#boxwrapper {
+    height: 10vh; 
+    width: 30%;
+    float: left;
+    flex-direction:column;
+    text-align: center;
+}
+#boxwrapper2 {
+    height: 20vh; 
+    width: 30%;
+    float: right;
+    flex-direction:column;
+    text-align: center;
+}
+.wrapper2 {
+    height: 20vh; 
+    width: 100%;
+    flex-direction:column;
+    text-align: center;
+}
+.men {
+    height: 205vh; 
+    width: 100%;
+    flex-direction:row;
+    text-align: left;
+}
+.des {
+    padding: 5px;
+    border: solid 10px rgb(11, 130, 199);
+    border-radius: 30px;
+    background-color: rgb(67, 244, 250);
+    color: rgb(245, 91, 227);
+    height: 3vh;
+}
+.exp {
+    padding: 5px;
+    border: solid 10px rgb(179, 255, 28);
+    border-radius: 30px;
+    background-color: rgb(189, 220, 31);
+    height: 3vh;
+    color: red;
+}
+.bot { 
+    width: 10%;
+    padding: 1px;
+    border: solid 3px rgb(0, 0, 0);
+    border-radius: 30px;
+    height: 3vh;
+}
+details summary {
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    border: 5px solid rgb(229, 160, 250);
+    font-size: 25px;
+}
+details summary > * {
+    display: inline;
+}
+details {
+    border: 2px solid rgb(11, 130, 199);
+    border-radius: 0.2rem;
+    padding: 0.1rem;
+}
+details p {
+    color: rgb(0, 0, 0);
+    background-color: rgb(170, 221, 251);
+    border: 2px solid rgb(99, 198, 255);
+    font-size: 15px;
+}
+details div {
+    background-color: white;
+    font-size: .5em;
+    border: 2px solid rgb(170, 221, 251);
+}
+
+
